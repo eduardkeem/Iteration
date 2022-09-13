@@ -10,6 +10,8 @@ const sum = (...args) => {
   return result;
 };
 
+// sum(1, 2, 3)
+
 const d = sum(0);
 console.log(d);
 module.exports = { sum };
